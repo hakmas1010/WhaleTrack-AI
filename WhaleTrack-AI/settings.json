@@ -1,0 +1,14 @@
+{
+  "sources": {
+    "crypto": true,
+    "stocks": true
+  },
+  "thresholds": {
+    "crypto_tx_usd": 1000000,
+    "stock_block_trade_usd": 5000000
+  },
+  "alerts": {
+    "write_to_file": true,
+    "file_path": "data/alerts.log"
+  }
+}
